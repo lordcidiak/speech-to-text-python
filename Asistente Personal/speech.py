@@ -99,6 +99,15 @@ if __name__ == "__main__":
 
         elif 'quién eres' in query:  
             speak("yo soy su asistente personal señor que quiere hacer?")
+        
+        elif 'como estas' in query:  
+            speak("muy bien señor, y que tal su dia?")
+        
+        elif 'opera' in query:  
+            speak("ya lo abro señor")
+            direccion = ""
+            
+            os.system('launcher.exe')
 
         elif 'quien eres' in query:  
             speak("yo soy su asistente personal señor que quiere hacer?")
@@ -107,7 +116,7 @@ if __name__ == "__main__":
             speak("la puta eres tu señor jajaja")
         
         elif 'turn off' in query:  
-            speak("ya me apago señor nos vemos señor")
+            speak("ya me apago señor nos vemos")
             exit(0)
 
             
